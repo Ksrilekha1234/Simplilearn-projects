@@ -16,9 +16,9 @@ public class RediffDemo {
 		
 		driver.get("http://register.rediff.com/register/register.php?FormName=user_details");
 		
-	//	driver.findElements(By.xpath("//input[@type='text']")).get(0).sendKeys("hari");
+	//	driver.findElements(By.xpath("//input[@type='text']")).get(0).sendKeys("Srilekha");
 		
-	driver.findElement(By.xpath("(//input[@type='text'])[1]")).sendKeys("hari gadhe");
+	driver.findElement(By.xpath("(//input[@type='text'])[1]")).sendKeys("Srilekha Kakani");
 	Thread.sleep(2000);
 	
 	driver.findElement(By.xpath("(//input[@type='text'])[2]")).sendKeys("admin123");
